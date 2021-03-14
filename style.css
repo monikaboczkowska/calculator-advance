@@ -1,0 +1,151 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'DotGothic16', sans-serif;
+}
+#header {
+    height: 100vh;
+    min-height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ****************************************** */
+
+
+/* main-display */
+
+
+/* ****************************************** */
+
+.main-display {
+    width: 62.5%;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 4rem;
+    height: 90px;
+    border-radius: 5px;
+    background-color: #6c757d;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 0.1rem solid #fff;
+}
+.main-display-numbers {
+    font-size: 60px;
+    clear: both;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+}
+.main-display-numbers-top {
+    font-size: 20px;
+    font-weight: 600;
+    color: #393d3f;
+    position: absolute;
+    right: 20px;
+    top: 7px;
+}
+.row-col-1-4 {
+    width: 16%;
+    float: left;
+    margin-top: 5px;
+}
+
+/* ****************************************** */
+
+
+/* main-button */
+
+
+/* ****************************************** */
+
+.main-button {
+    height: 60px;
+    font-size: 2rem;
+    color: #212529;
+    background-color: #adb5bd;
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    border: 0.1rem solid #fff;
+    border-radius: 3px;
+}
+.main-button-numbers {
+    background-color: #c6c5b9;
+    color: #000;
+    font-weight: bold;
+}
+.main-button-numbers:hover {
+    background-color: #393d3f;
+    color: #f5f5f5;
+}
+.main-button-color-2 {
+    background-color: #468189;
+    color: #f5f5f5;
+}
+.main-button-color-2:hover {
+    background-color: #d5dfe5;
+    color: #042a2b;
+}
+.fa-circle {
+    font-size: 10px;
+}
+
+/* ****************************************** */
+
+
+/* Smartphones (portrait) ----------- */
+
+
+/* ****************************************** */
+
+@media only screen and (max-width: 360px) {
+    .title {
+        margin-top: 15px;
+    }
+    .row-col-1-4 {
+        width: 25%;
+        float: left;
+        margin-top: 5px;
+        padding: 1px;
+    }
+    .main-display {
+        width: 100%;
+        margin-top: -10px;
+        font-size: 4rem;
+        height: 90px;
+        border-radius: 10px;
+        background-color: #6c757d;
+        text-align: right;
+        padding-right: 20px;
+        padding-left: 20px;
+        position: relative;
+        overflow: hidden;
+        border: 0.1rem solid #fff;
+    }
+    .main-button {
+        height: 60px;
+        font-size: 1.5rem;
+        width: 60px;
+        margin: 1px;
+        border: 0.1rem solid #fff;
+        border-radius: 3px;
+    }
+    .main-buttons-all {
+        margin-left: 13px;
+    }
+    .container {
+        width: 100%;
+        margin: 0px;
+    }
+}
